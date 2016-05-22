@@ -1,0 +1,16 @@
+{
+    "name": "mangabot-website",
+    "version": "1.0.0",
+    "author": "Duy Tran",
+    "description": "Website for Manga Bot",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": { },
+    "devDependencies": {
+        "express": "~3.0",
+        "express-namespace": "~0.1.1",
+        "open": "0.0.3"
+    }
+}

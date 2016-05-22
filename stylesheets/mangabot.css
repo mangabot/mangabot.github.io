@@ -1,0 +1,93 @@
+.supported-sites {
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+.supported-sites ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+.supported-sites ul > li {
+    float: left;
+    width: 33.3333%;
+}
+
+/* Download links */
+ul.download-links {
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+ul.download-links > li {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}
+
+/* Change logs */
+.changelogs {
+    border: 1px dashed #e0e0e0;
+    padding: 25px;
+    font-size: 0.83rem;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.changelogs.collapse {
+    height: 200px;
+    overflow: hidden;
+}
+
+.changelogs .version {
+    margin-bottom: 25px;
+}
+
+.changelogs .version ul {
+    margin-bottom: 5px;
+}
+
+.site-footer {
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.site-footer .site-footer-credits {
+    text-align: center;
+}
+
+.site-footer .site-footer-credits,
+.site-footer .site-footer-credits a {
+    color: inherit;
+}
+
+.site-footer .site-footer-credits a:hover {
+    text-decoration: none;
+}
+
+.site-footer .site-footer-credits a > * {
+    vertical-align: middle;
+}
+
+.site-footer .site-footer-credits a > i {
+    font-weight: 600;
+    font-size: inherit;
+}
+
+#show-more {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 3px 0;
+}
+
+#show-more:hover {
+    text-decoration: none;
+}
