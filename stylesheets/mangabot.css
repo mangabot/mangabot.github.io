@@ -4,29 +4,6 @@
     padding: 0;
 }
 
-.supported-sites ul {
-    overflow: hidden;
-    list-style: none;
-}
-
-.supported-sites ul > li {
-    float: left;
-    width: 33.3333%;
-}
-
-/* Download links */
-ul.download-links {
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-}
-
-ul.download-links > li {
-    float: left;
-    width: 33.3333%;
-    text-align: center;
-}
-
 /* Change logs */
 .changelogs {
     border: 1px dashed #e0e0e0;
