@@ -1,3 +1,37 @@
+ul.download-links {
+    list-style: none;
+    padding: 0;
+    margin: 45px 0px -25px;
+}
+
+ul.download-links > li {
+    display: inline-block;
+    padding: 15px;
+}
+
+ul.download-links > li > a {
+    color: #e0e0e0;
+    height: 52px;
+    display: block;
+    border: 1px solid #e0e0e0;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+ul.download-links > li > a > i {
+    font-size: 2.5em;
+    border-right: 1px solid #e0e0e0;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+ul.download-links > li > a > .text {
+    vertical-align: middle;
+    padding: 0 15px 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 .supported-sites {
     overflow: hidden;
     list-style: none;
