@@ -38,6 +38,25 @@ ul.download-links > li > a > .text {
     padding: 0;
 }
 
+ul.faqs {
+    list-style: none;
+    padding: 0;
+}
+
+ul.faqs > li {
+    padding-bottom: 15px;
+}
+
+ul.faqs > li > .q {
+
+}
+
+ul.faqs > li > .a {
+    padding: 4px 12px 4px 18px;
+    font-size: 90%;
+    font-style: italic;
+}
+
 /* Change logs */
 .changelogs {
     border: 1px dashed #e0e0e0;
