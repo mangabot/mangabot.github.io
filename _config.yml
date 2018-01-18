@@ -1,8 +1,0 @@
-title: Manga Bot
-description: An amazing tool aims to download manga from the world
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-minimal
-
-gems:
-  - jekyll-mentions
