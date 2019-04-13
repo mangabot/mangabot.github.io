@@ -16,8 +16,8 @@ function readTextFile(file) {
 
 // readTextFile("./README.md");
 
-// fetch("./README.md")
-//   .then(response => response.text())
-//   .then(text => {
-//     document.getElementById("markdown-container").innerHTML = text;
-//   });
+fetch("./README.md")
+  .then(response => response.text())
+  .then(text => {
+    document.getElementById("markdown-container").innerHTML = text;
+  });
