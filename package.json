@@ -2,12 +2,12 @@
     "name": "mangabot-website",
     "version": "1.0.0",
     "author": "Duy Tran",
-    "description": "Website for Manga Bot",
+    "description": "Manga Bot is a user-friendly and efficient application that can help you quickly grab your favorite manga series, enabling you to save it to your computer and read it whenever you want.",
     "repository": {
         "type": "git",
         "url": ""
     },
-    "dependencies": { },
+    "dependencies": {},
     "devDependencies": {
         "express": "~3.0",
         "express-namespace": "~0.1.1",
