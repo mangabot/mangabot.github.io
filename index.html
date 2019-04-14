@@ -4,431 +4,349 @@
 <head>
   <meta charset="UTF-8">
   <title>Manga Bot</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="assets/mangabot.ico">
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="stylesheets/mangabot.css" media="screen">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="assets/mangabot.ico">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700'
+        rel='stylesheet'
+        type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  <link rel="stylesheet"
+        type="text/css"
+        href="stylesheets/normalize.css"
+        media="screen">
+  <link rel="stylesheet"
+        type="text/css"
+        href="stylesheets/stylesheet.css"
+        media="screen">
+  <link rel="stylesheet"
+        type="text/css"
+        href="stylesheets/mangabot.css"
+        media="screen">
 </head>
 
 <body>
-  <section class="page-header">
-    <h1 class="project-name">Manga Bot</h1>
-    <h2 class="project-tagline">An amazing tool aims to download manga from the world</h2>
-    <div class="version">Latest version 2.5 (2018-01-19)</div>
-    <ul class="download-links">
-      <li>
-        <a title="Manga Downloader" href="http://www.mediafire.com/file/mabguyx0zfa3h8z/mangabot-2.5.zip" target="_blank">
-          <i class="material-icons">file_download</i>
-          <span class="text">Mediafire</span>
-        </a>
-      </li>
-      <li>
-        <a title="Manga Downloader" href="https://sourceforge.net/projects/mangabot/" target="_blank">
-          <i class="material-icons">file_download</i>
-          <span class="text">Sourceforge</span>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.softpedia.com/get/Internet/Download-Managers/Manga-Downloader-DuyTran.shtml" target="_blank">
-          <i class="material-icons">file_download</i>
-          <span class="text">Softpedia</span>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="markdown-container"></section>
-
-  <section class="main-content">
-    Are you going to travel without internet connection? Is your internet connection too slow? Is your computer too slow since
-    reading manga on the fly because of ads? Or just want to read Hentai somewhere your parent or girl friend cannot catch
-    it?
-    <br><br> So, this tiny tool was born to help you to get it. It aims to download manga on the internet to your computer
-    to view them at the later time on your computers or phones. And certainly, it will always be <strong>100% FREE</strong>.<br><br>Feel
-    free to feedback to me any errors and new features you want via email
-    <a title="dangduy2910@gmail.com" href="mailto:dangduy2910@gmail.com" target="_blank">dangduy2910@gmail.com</a> or leave comments here. Thanks for using.
-    <br>
-
-    <h3 style="text-transform:uppercase"><strong>Some Features</strong></h3>
-    <ul>
-      <li>Ability to download up to 10 manga simultaneously with one-click (Unlimited with <b>Add to Queue</b>)</li>
-      <li>Ability to download a manga/chapter from its link (<b>Grabber</b> tool)</li>
-      <li>Allow to create automatically a ZIP or PDF file from each chapter was downloaded completely</li>
-      <li>Advanced search across sites</li>
-      <li>Automatically update manga list. No longer worry about the manga list is out of date</li>
-      <li>Shutdown your computer after download queue was complete</li>
-      <li>Create a ZIP/PDF file from anything downloaded manually (<b>Converter</b> tool)</li>
-    </ul>
-
-    <h3 style="text-transform:uppercase"><strong>Supported Sites</strong></h3>
-    <div class="supported-sites">
-      <h4>Vietnamese</h4>
-      <ul>
-        <li>
-          <a href="http://blogtruyen.com/" target="_blank">blogtruyen.com</a>
-        </li>
-        <li>
-          <a href="http://truyentranh8.net" target="_blank">truyentranh8.net</a>
-        </li>
-        <li>
-          <a href="http://truyentranhtuan.com" target="_blank">truyentranhtuan.com</a>
-        </li>
-        <li>
-          <a href="http://truyen.academyvn.com" target="_blank">truyen.academyvn.com</a>
-        </li>
-        <li>
-          <a href="http://iztruyentranh.com/" target="_blank">iztruyentranh.com</a>
-        </li>
-        <li>
-          <a href="http://lhmanga.com" target="_blank">lhmanga.com</a>
-        </li>
-        <li>
-          <a href="http://truyentranh.net/" target="_blank">truyentranh.net</a>
-        </li>
-        <li>
-          <a href="http://truyentranhmoi.com/" target="_blank">truyentranhmoi.com</a>
-        </li>
-        <li>
-          <a href="http://mangak.info/" target="_blank">mangak.info</a>
-        </li>
-        <li>
-          <a href="http://uptruyen.com/" target="_blank">uptruyen.com</a>
-        </li>
-      </ul>
-
-      <h4>English</h4>
-      <ul>
-        <li>
-          <a href="http://mangafox.me/" target="_blank">mangafox.me</a>
-        </li>
-        <li>
-          <a href="http://mangapark.me/" target="_blank">mangapark.me</a>
-        </li>
-      </ul>
+  <header class="page-header">
+    <div class="header-body">
+      <div class="project">
+        <h1 class="project-name">
+          <span>Manga Bot</span>
+          <img src="assets/mangabot.png" width="48" height="48" alt="Logo"/>
+          </h1>
+          <h2 class="tagline">
+            A tiny downloader aims to grab your favorite manga series
+          </h2>
+      </div>
     </div>
+  </header>
 
-    <h3 style="text-transform:uppercase"><strong>Screenshots</strong></h3>
-    <div style="text-align:center">
-      <img class=" aligncenter" src="http://i1-win.softpedia-static.com/screenshots/Manga-Downloader-DuyTran_1.png" alt="Manga Downloader"
-      />
+  <article class="main-content markdown-body entry-content p-5">
+    <p>Manga Bot is a user-friendly and efficient application that can help you quickly grab your favorite manga series,
+      enabling you to save it to your computer and read it whenever you want.</p>
 
-      <img class=" aligncenter" src="http://i1-win.softpedia-static.com/screenshots/Manga-Downloader-DuyTran_2.png" alt="Manga Downloader"
-      />
+    <p>It's <strong>100% FREE</strong> without any ads in app. If you have any inquiries or difficulties in use, just
+      feel free to feedback to me via email <a href="mailto:dangduy2910@gmail.com">dangduy2910@gmail.com</a> or leave
+      comments here.</p>
 
-      <img class=" aligncenter" src="http://i1-win.softpedia-static.com/screenshots/Manga-Downloader-DuyTran_3.png" alt="Manga Downloader"
-      />
+    <h2>Installation</h2>
 
-      <img class=" aligncenter" src="http://i1-win.softpedia-static.com/screenshots/Manga-Downloader-DuyTran_4.png" alt="Manga Downloader"
-      />
-    </div>
-    <br>
-    <br>
-    <br>
-
-    <h3 style="text-transform:uppercase"><strong>Requirement</strong></h3>
-    <div>
-      .NET Framework 4.0 or later. Download
+    <p>
+      Manga Bot requires
       <a href="http://download.microsoft.com/download/1/6/7/167F0D79-9317-48AE-AEDB-17120579F8E2/NDP451-KB2858728-x86-x64-AllOS-ENU.exe"
-        target="_blank">.NET Framework 4.5</a>.
-    </div>
-    <br>
+         target="_blank">.NET Framework 4.0+</a> to run.
+    </p>
 
-    <h3 style="text-transform:uppercase"><strong>FAQs</strong></h3>
-    <ul class="faqs">
-      <li>
-        <div class="q">1. How to download the manga immediately?</div>
-        <div class="a">
-          Choose manga/chapters you want to download (on the left/right list) -> right-click on the list -> Download.<br>          Remember that you can only download up to 10 manga at the same time.
-        </div>
-      </li>
-      <li>
-        <div class="q">2. How to bookmark and download manga later or more than 10 manga at the same time?</div>
-        <div class="a">
-          Choose manga/chapters you want to download (on the left/right list) -> right-click on the list -> Add to Queue. It should
-          be shown in the bottom list.<br> Remember that it just added to the list. To start downloading, click
-          button <b>Start Queue</b> <img src="assets/multidownload.png" style="margin-left:5px">.
-        </div>
-      </li>
+    <table>
+      <thead>
+        <tr>
+          <th>Site</th>
+          <th>Download link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>.NET Framework</td>
+          <td>
+            <a href="http://download.microsoft.com/download/1/6/7/167F0D79-9317-48AE-AEDB-17120579F8E2/NDP451-KB2858728-x86-x64-AllOS-ENU.exe"
+               target="_blank">v4.5</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Mediafire</td>
+          <td>
+            <a href="http://www.mediafire.com/file/mabguyx0zfa3h8z/mangabot-2.5.zip"
+               target="_blank">v2.5 (2018-01-19)</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Softpedia</td>
+          <td>
+            <a href="http://www.softpedia.com/get/Internet/Download-Managers/Manga-Downloader-DuyTran.shtml"
+               target="_blank">v2.5</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Features</h2>
+
+    <ul>
+      <li>Download up to 10 manga simultaneously with one-click (unlimited in Queue)</li>
+      <li>Automatically update manga list. No longer worry about the manga list is out of dated</li>
+      <li>Download from any link (Grabber tool)</li>
+      <li>Create ZIP/PDF files automatically after downloaded</li>
+      <li>Advanced search across sites</li>
+      <li>Shutdown your computer after download queue was completed</li>
+      <li>Create ZIP/PDF file from anything downloaded manually (Converter tool)</li>
     </ul>
 
-    <h3 style="text-transform:uppercase"><strong>Changelogs</strong></h3>
-    <div id="changelogs" class="changelogs collapse">
-      <strong>Version 2.5 (2018-01-19)</strong>
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Fix broken sites
-      <br>
-      <br>
+    <h2>Supported sites</h2>
 
-      <strong>Version 2.3 (2016-07-17)</strong>
-      <br>
-      <em>[New Feature]</em>
-      <br> - Support truyentranhmoi.com, mangak.info, uptruyen.com
-      <br> - Vechai moved to truyentranh.net
-      <br> - izmanga.com moved to iztruyentranh.com
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Fix truyentranh8.net
-      <br>
-      <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Vietnamese</th>
+          <th>English</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>blogtruyen.com</td>
+          <td>mangafox.me</td>
+        </tr>
+        <tr>
+          <td>truyentranh8.net</td>
+          <td>mangapark.me</td>
+        </tr>
+        <tr>
+          <td>truyentranhtuan.com</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>hocvientruyentranh.net</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>truyentranh.net</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>mangak.info</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>uptruyen.com</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
 
-      <strong>Version 2.2 (2016-05-28)</strong>
-      <br>
-      <em>[New Feature]</em>
-      <br> - No longer support auto update (do not find any free host to get permanent direct link)
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Fix links
-      <br> - Bypass antivirus programs
-      <br>
-      <br>
+    <h2>Screenshots</h2>
 
-      <strong>Version 2.1 (2016-05-15)</strong>
-      <br>
-      <em>[New Feature]</em>
-      <br> - Support lhmanga.com
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Bandwidth limit
-      <br>
-      <br>
+    <p>
+      <a target="_blank"
+         rel="noopener noreferrer"
+         href="https://camo.githubusercontent.com/8d132693c452e385f5740e537b4c1701417475fa/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f312e706e67"><img src="https://camo.githubusercontent.com/8d132693c452e385f5740e537b4c1701417475fa/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f312e706e67" alt="Main" data-canonical-src="https://windows-cdn.softpedia.com/screenshots/Manga-Downloader-DuyTran_1.png" style="max-width:100%;"></a>
+    </p>
+    <p>
+      <a target="_blank"
+         rel="noopener noreferrer"
+         href="https://camo.githubusercontent.com/3b09b1ab61bebf8dabb6d1337214c655ddf1ac88/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f322e706e67"><img src="https://camo.githubusercontent.com/3b09b1ab61bebf8dabb6d1337214c655ddf1ac88/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f322e706e67" alt="Converter" data-canonical-src="https://windows-cdn.softpedia.com/screenshots/Manga-Downloader-DuyTran_2.png" style="max-width:100%;"></a>
+    </p>
+    <p>
+      <a target="_blank"
+         rel="noopener noreferrer"
+         href="https://camo.githubusercontent.com/c3aa3a5ffd183327979f4e031482b6901535148f/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f332e706e67"><img src="https://camo.githubusercontent.com/c3aa3a5ffd183327979f4e031482b6901535148f/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f332e706e67" alt="Search" data-canonical-src="https://windows-cdn.softpedia.com/screenshots/Manga-Downloader-DuyTran_3.png" style="max-width:100%;"></a>
+    </p>
+    <p>
+      <a target="_blank"
+         rel="noopener noreferrer"
+         href="https://camo.githubusercontent.com/6ab961ee5b13417bc64f1fe2d1e08af8b6420419/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f342e706e67"><img src="https://camo.githubusercontent.com/6ab961ee5b13417bc64f1fe2d1e08af8b6420419/68747470733a2f2f77696e646f77732d63646e2e736f667470656469612e636f6d2f73637265656e73686f74732f4d616e67612d446f776e6c6f616465722d4475795472616e5f342e706e67" alt="Settings" data-canonical-src="https://windows-cdn.softpedia.com/screenshots/Manga-Downloader-DuyTran_4.png" style="max-width:100%;"></a>
+    </p>
 
-      <strong>Version 2.0 (2016-05-08)</strong>
-      <br>
-      <em>[New Feature]</em>
-      <br> - App name is changed to "Manga Bot"
-      <br> - Auto-update manga list
-      <br> - Ability to quickly support &amp; bugfix
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Update logo of manga sites
-      <br> - Resort the order of sites by download times
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Fix vechai.info
-      <br>
-      <br>
+    <h2>FAQs</h2>
 
-      <strong>Version 1.20 (2016-04-03)</strong>
-      <br>
-      <em>[New Feature]</em>
-      <br> - Support mangapark.me
-      <br>
-      <br>
-      <strong>Version 1.19 (2016-04-02)</strong>
-      <br>
-      <em>[New]</em>
-      <br> - Do not support mangavn, kissmanga
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Fix blogtruyen, izmanga, manga24h, truyentranh8
-      <br>
-      <br>
+    <ol>
+      <li>How to download the manga immediately?</li>
+    </ol>
 
-      <strong>Version 1.18 (2015-10-03)</strong>
-      <br>
-      <em>[Bugfix]</em>
-      <br> - BlogTruyen image url
-      <br>
-      <br>
+    <blockquote>
+      <p>
+        Choose manga/chapters you want to download (on the left/right list) -&gt; right-click on the list -&gt;
+        Download.
+        Remember that you can only download up to 10 manga at the same time.
+      </p>
+    </blockquote>
 
-      <strong>Version 1.17 (2015-09-20)</strong>
-      <br>
-      <em>[Bugfix]</em>
-      <br> - BlogTruyen image resolution was reduced
-      <br>
-      <br>
+    <ol start="2">
+      <li>How to bookmark and download manga later or more than 10 manga at the same time?</li>
+    </ol>
 
-      <strong>Version 1.16 (2015-09-07)</strong>
-      <br>
-      <em>[Feature]</em>
-      <br> - New option to enable/disable to minimize to the taskbar when close app
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Remove truyentranhnhanh.com because it's no longer available
-      <br>
-      <em>[Bugfix]</em>
-      <br> - mangafox.me
-      <br> - truyentranh8.net
-      <br>
-      <br>
+    <blockquote>
+      <p>
+        Choose manga/chapters you want to download (on the left/right list) -&gt; right-click on the list -&gt; Add to
+        Queue. It should be shown in the bottom list. Remember that it just added to the list. To start downloading,
+        click button Start Queue
+        <img src="/mangabot/mangabot.github.io/raw/master/assets/multidownload.png" alt="SQ" style="max-width:100%;">.
+      </p>
+    </blockquote>
 
-      <strong>Version 1.15 (2015-07-19)</strong>
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Improve auto update
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Remove loading manga list windows
-      <br>
-      <br>
+    <h2>Changelogs</h2>
 
-      <strong>Version 1.14 (2015-07-12)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - New site otakufc.com, truyen.academyvn.com
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Improve Converter UX
-      <br>
-      <br>
-
-      <strong>Version 1.13 (2015-06-14)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Ability to update automatically new versions
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Get manga from
-      <a href="http://vechai.info/" target="_blank">vechai.info</a>
-      <br>
-      <br>
-
-      <strong>Version 1.12 (2015-06-06)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Support
-      <a href="http://kissmanga.com/" target="_blank">kissmanga.com</a>
-      <br> - Change task priority to download
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Ability to add more tasks meanwhile starting queue
-      <br>
-      <br>
-
-      <strong>Version 1.11 (2015-05-28)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Converter to convert photos to PDF or zip
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Get actual photo size when blogtruyen uses proxy url
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Not to update concurrent worker limit when updating settings
-      <br>
-      <br>
-
-      <strong>Version 1.10 (2015-05-12)</strong>
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Cannot close auto update form
-      <br>
-      <br>
-
-      <strong>Version 1.9 (2015-05-11)</strong>
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Cannot download from
-      <a href="http://manga24h.com/" target="_blank">manga24h.com</a>
-      <br>
-      <br>
-
-      <strong>Version 1.8 (2015-04-05)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Turn off computer after queue downloaded complete
-      <br> - Hide to notification area of taskbar when close app
-      <br> - Advanced search
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Always show search box
-      <br> - Move task toolbar up to task list
-      <br> - Not hang UI when open app
-      <br> - Always use en-US number format for versioning format
-      <br> - Rearrange task list columns
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Manual downloading
-      <br> - Button skip doesn't work
-      <br>
-      <br>
-
-      <strong>Version 1.7 (2015-04-02)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Support
-      <a href="http://izmanga.com/" target="_blank">izmanga.com</a>
-      <br>
-      <br>
-
-      <strong>Version 1.6 (2015-04-01)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Support
-      <a href="http://manga24h.com" target="_blank">manga24h.com</a>,
-      <a href="http://truyentranhtuan.com" target="_blank">truyentranhtuan.com</a>,
-      <a href="http://truyentranh8.net" target="_blank">truyentranh8.net</a>,
-      <a href="http://truyentranhnhanh.com" target="_blank">truyentranhnhanh.com</a>
-      <br>
-      <br>
-
-      <strong>Version 1.5 (2015-03-29)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Support
-      <a title="MangaVN" href="http://www.mangavn.net/" target="_blank">mangavn.net</a>
-      <br> - <strong>Grabber</strong> form, to get chapters from a manga url
-      <br> - Button <strong>Download</strong> to add manga/chapter/page to queue and download them right
-      <br>
-      <em>[Enhancement]</em>
-      <br> - <strong>Search box </strong>has an agility to search by manga url
-      <br> - Remove<strong> AutoUpdate</strong> option, it means to check for updates always
-      <br> - Agility to get chapter list from <strong>unverified manga of BlogTruyen</strong>
-      <br>
-      <em>[Bugfix]</em>
-      <br> - A task wasn't updated to STOPPED despite it was stopped when stop queue
-      <br>
-      <br>
-
-      <strong>Version 1.4 (2015-03-28)</strong>
-      <br>
-      <em>[Enhancement]</em>
-      <br> - Optimize UI more clean
-      <br>
-      <br>
-
-      <strong>Version 1.3 (2014-06-04)</strong>
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Ignore the redundant images
-      <br>
-      <br>
-
-      <strong>Version 1.2 (2014-05-07)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Support two sites vechai.info
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Ignore the redundant images
-      <br>
-      <br>
-
-      <strong>Version 1.1 (2014-05-04)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Allow to grab list of chapters from an url of manga. Only two sites blogtruyen.com and mangafox.me
-      <br> - Allow to convert the images to PDF file
-      <br> - Massively rename
-      <br>
-      <em>[Bugfix]</em>
-      <br> - Cannot create zip file
-      <br>
-      <br>
-
-      <strong>Version 1.0 (2014-04-30)</strong>
-      <br>
-      <em>[Features]</em>
-      <br> - Support to get list of manga from two sites blogtruyen.com and mangafox.me
-      <br> - Allow to download manga to see them offline later
-      <br> - Automatically create ZIP or PDF file after download completed
-      <br> - Automatically shutdown your computer after queue were downloaded completed
-      <br>
+    <section id="changelogs"
+             class="changelogs collapse">
+      <p>Version 2.5 (2018-01-19)</p>
+      <ul>
+        <li>[FIXED] Broken sites</li>
+      </ul>
+      <p>Version 2.3 (2016-07-17)</p>
+      <ul>
+        <li>[NEW] Support truyentranhmoi.com, mangak.info, uptruyen.com</li>
+        <li>[NEW] Vechai moved to truyentranh.net</li>
+        <li>[NEW] izmanga.com moved to iztruyentranh.com</li>
+        <li>[IMPROVED] Fix truyentranh8.net</li>
+      </ul>
+      <p>Version 2.2 (2016-05-28)</p>
+      <ul>
+        <li>[NEW] No longer support auto update (do not find any free host to get permanent direct link)</li>
+        <li>[IMPROVED] Bypass antivirus programs</li>
+        <li>[FIXED] Homepage Links</li>
+      </ul>
+      <p>Version 2.1 (2016-05-15)</p>
+      <ul>
+        <li>[NEW] Support lhmanga.com</li>
+        <li>[FIXED] Bandwidth limit</li>
+      </ul>
+      <p>Version 2.0 (2016-05-08)</p>
+      <ul>
+        <li>[NEW] App name is changed to "Manga Bot"</li>
+        <li>[NEW] Auto-update manga list</li>
+        <li>[NEW] Ability to quickly support &amp; bugfix</li>
+        <li>[IMPROVED] Update logo of manga sites</li>
+        <li>[IMPROVED] Resort the order of sites by download times</li>
+        <li>[FIXED] Fix vechai.info</li>
+      </ul>
+      <p>Version 1.20 (2016-04-03)</p>
+      <ul>
+        <li>[NEW] Support mangapark.me</li>
+      </ul>
+      <p>Version 1.19 (2016-04-02)</p>
+      <ul>
+        <li>[NEW] Do not support mangavn, kissmanga</li>
+        <li>[FIXED] Fix blogtruyen, izmanga, manga24h, truyentranh8</li>
+      </ul>
+      <p>Version 1.18 (2015-10-03)</p>
+      <ul>
+        <li>[FIXED] BlogTruyen image url</li>
+      </ul>
+      <p>Version 1.17 (2015-09-20)</p>
+      <ul>
+        <li>[FIXED] BlogTruyen image resolution was reduced</li>
+      </ul>
+      <p>Version 1.16 (2015-09-07)</p>
+      <ul>
+        <li>[NEW] New option to enable/disable to minimize to the taskbar when close app</li>
+        <li>[IMPROVED] Remove truyentranhnhanh.com because it's no longer available</li>
+        <li>[FIXED] mangafox.me, truyentranh8.net</li>
+      </ul>
+      <p>Version 1.15 (2015-07-19)</p>
+      <ul>
+        <li>[IMPROVED] Improve auto update</li>
+        <li>[FIXED] Remove loading manga list windows</li>
+      </ul>
+      <p>Version 1.14 (2015-07-12)</p>
+      <ul>
+        <li>[NEW] New site otakufc.com, truyen.academyvn.com</li>
+        <li>[IMPROVED] Improve Converter UX</li>
+      </ul>
+      <p>Version 1.13 (2015-06-14)</p>
+      <ul>
+        <li>[NEW] Ability to update automatically new versions</li>
+        <li>[FIXED] Get manga from vechai.info</li>
+      </ul>
+      <p>Version 1.12 (2015-06-06)</p>
+      <ul>
+        <li>[NEW] Support kissmanga.com</li>
+        <li>[NEW] Change task priority to download</li>
+        <li>[IMPROVED] Ability to add more tasks meanwhile starting queue</li>
+      </ul>
+      <p>Version 1.11 (2015-05-28)</p>
+      <ul>
+        <li>[NEW] Converter to convert photos to PDF or zip</li>
+        <li>[IMPROVED] Get actual photo size when blogtruyen uses proxy url</li>
+        <li>[FIXED] Not to update concurrent worker limit when updating settings</li>
+      </ul>
+      <p>Version 1.10 (2015-05-12)</p>
+      <ul>
+        <li>[FIXED] Cannot close auto update form</li>
+      </ul>
+      <p>Version 1.9 (2015-05-11)</p>
+      <ul>
+        <li>[FIXED] Cannot download from manga24h.com</li>
+      </ul>
+      <p>Version 1.8 (2015-04-05)</p>
+      <ul>
+        <li>[NEW] Turn off computer after queue downloaded complete</li>
+        <li>[NEW] Hide to notification area of taskbar when close app</li>
+        <li>[NEW] Advanced search</li>
+        <li>[IMPROVED] Always show search box</li>
+        <li>[IMPROVED] Move task toolbar up to task list</li>
+        <li>[IMPROVED] Not hang UI when open app</li>
+        <li>[IMPROVED] Always use en-US number format for versioning format</li>
+        <li>[IMPROVED] Rearrange task list columns</li>
+        <li>[FIXED] Manual downloading</li>
+        <li>[FIXED] Button skip doesn't work</li>
+      </ul>
+      <p>Version 1.7 (2015-04-02)</p>
+      <ul>
+        <li>[NEW] Support izmanga.com</li>
+      </ul>
+      <p>Version 1.6 (2015-04-01)</p>
+      <ul>
+        <li>[NEW] Support manga24h.com, truyentranhtuan.com, truyentranh8.net, truyentranhnhanh.com</li>
+      </ul>
+      <p>Version 1.5 (2015-03-29)</p>
+      <ul>
+        <li>[NEW] Support mangavn.net</li>
+        <li>[NEW] Grabber form, to get chapters from a manga url</li>
+        <li>[NEW] Button Download to add manga/chapter/page to queue and download them right</li>
+        <li>[IMPROVED] Search box has an agility to search by manga url</li>
+        <li>[IMPROVED] Remove AutoUpdate option, it means to check for updates always</li>
+        <li>[IMPROVED] Agility to get chapter list from unverified manga of BlogTruyen</li>
+        <li>[FIXED] A task wasn't updated to STOPPED despite it was stopped when stop queue</li>
+      </ul>
+      <p>Version 1.4 (2015-03-28)</p>
+      <ul>
+        <li>[IMPROVED] Optimize UI more clean</li>
+      </ul>
+      <p>Version 1.3 (2014-06-04)</p>
+      <ul>
+        <li>[FIXED] Ignore the redundant images</li>
+      </ul>
+      <p>Version 1.2 (2014-05-07)</p>
+      <ul>
+        <li>[NEW] Support two sites vechai.info</li>
+        <li>[FIXED] Ignore the redundant images</li>
+      </ul>
+      <p>Version 1.1 (2014-05-04)</p>
+      <ul>
+        <li>[NEW] Allow to grab list of chapters from an url of manga. Only two sites blogtruyen.com and mangafox.me
+        </li>
+        <li>[NEW] Allow to convert the images to PDF file</li>
+        <li>[NEW] Massively rename</li>
+        <li>[FIXED] Cannot create zip file</li>
+      </ul>
+      <p>Version 1.0 (2014-04-30)</p>
+      <ul>
+        <li>[NEW] Update UI completely and rename to Manga Bot</li>
+        <li>[NEW] Support to get list of manga from two sites blogtruyen.com and mangafox.me</li>
+        <li>[NEW] Allow to download manga to see them offline later</li>
+        <li>[NEW] Automatically create ZIP or PDF file after download completed</li>
+        <li>[NEW] Automatically shutdown your computer after queue were downloaded completed</li>
+      </ul>
 
       <a id="show-more">Show More</a>
 
@@ -449,30 +367,49 @@
           });
         })();
       </script>
-    </div>
-
-    <section id="comment-sidebar">
-      <div class="comments">
-        <div id="disqus_thread"></div>
-        <script>
-          var disqus_config = function () {
-            this.page.url = 'http://mangabot.github.io/';
-            this.page.identifier = 'mangabot';
-          };
-          (function () {
-            var d = document,
-              s = d.createElement('script');
-            s.src = '//mangabot.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-          })();
-        </script>
-        <noscript>Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-        </noscript>
-      </div>
     </section>
 
+    <h2>License</h2>
+    <p>The MIT License (MIT)</p>
+    <p>Copyright (c) 2012 Manga Bot</p>
+    <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:</p>
+    <p>The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.</p>
+    <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.</p>
+  </article>
+
+  <section id="comment-sidebar">
+    <div class="comments">
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'http://mangabot.github.io/';
+          this.page.identifier = 'mangabot';
+        };
+        (function () {
+          var d = document,
+            s = d.createElement('script');
+          s.src = '//mangabot.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript"
+           rel="nofollow">comments powered by Disqus.</a>
+      </noscript>
+    </div>
   </section>
 
   <footer class="site-footer">
@@ -482,13 +419,10 @@
         <span>with</span>
         <i class="material-icons">favorite</i>
         <span>by</span>
-        <strong class="name">DuyTran</strong>
+        <strong class="name">Duy Tran</strong>
       </a>
     </div>
   </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js"></script>
-  <script src="script.js"></script>
 </body>
 
 </html>

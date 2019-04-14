@@ -6,7 +6,5 @@
     "repository": {
         "type": "git",
         "url": ""
-    },
-    "dependencies": {},
-    "devDependencies": {}
+    }
 }
