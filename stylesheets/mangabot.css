@@ -13,7 +13,8 @@ body {
 @media screen and (min-width: 64em) {
 
   .main-content,
-  .page-header .header-content {
+  .page-header .header-content,
+  #comment-sidebar {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
@@ -23,7 +24,8 @@ body {
 @media screen and (min-width: 42em) and (max-width: 64em) {
 
   .main-content,
-  .page-header .header-content {
+  .page-header .header-content,
+  #comment-sidebar {
     padding: 2rem 4rem;
   }
 }
@@ -31,7 +33,8 @@ body {
 @media screen and (max-width: 42em) {
 
   .main-content,
-  .page-header .header-content {
+  .page-header .header-content,
+  #comment-sidebar {
     padding: 2rem 1rem;
   }
 }
